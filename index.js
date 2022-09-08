@@ -30,5 +30,5 @@ function savePassword() {
 function copyPassword() {
   password.select();
   document.execCommand("copy");
-  alert("Text berhasil dicopy");
+  alert("Copied!");
 }

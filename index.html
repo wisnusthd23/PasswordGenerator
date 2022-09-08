@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/c333a04786.js" crossorigin="anonymous"></script>
   </head>
-  <body style="background: linear-gradient(#08e6f1, #360465)">
+  <body style="background: linear-gradient(#04c2cc, #d3d3d3)">
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
       <div class="d-flex justify-content-center flex-column">
         <h1>Password Generator!</h1>
@@ -16,7 +16,7 @@
           <input type="number" class="form-control" id="panjangpassword" placeholder="Enter Password Length" />
           <label for="password" class="form-label fw-bold">Password</label>
           <div class="input-group">
-            <input type="" class="form-control" id="password" value="" readonly />
+            <input type="" class="form-control" id="password" value="" disabled readonly />
             <span class="input-group-btn">
               <bu type="button" class="btn btn-success fw-bold" onclick="copyPassword()">
                 <span class="fa fa-copy"></span>
@@ -30,7 +30,20 @@
           </div>
         </div>
         <h4 class="text-center fw-bold text-black">Follow My Personal Social Media</h4>
-        <div class="d-flex justify-content-between">
+        <div class="row text-center">
+          <div class="col">
+            <a href="https://www.instagram.com/king__w23/" class="text-decoration-none text-black"
+            ><h5><i class="fa-brands fa-instagram"></i></h5></a
+          >
+          </div>
+          <div class="col"><a href="https://twitter.com/Wisnuinu_23" class="text-decoration-none text-black"
+            ><h5><i class="fa-brands fa-twitter"></i></h5></a
+          ></div>
+          <div class="col"><a href="https://facebook.com/profile.php?id=100010394822710" class="text-decoration-none text-black"
+            ><h5><i class="fa-brands fa-facebook"></i></h5></a
+          ></div>
+        </div>
+        <!-- <div class="d-flex justify-content-between">
           <a href="https://www.instagram.com/king__w23/" class="text-decoration-none text-black"
             ><h5><i class="fa-brands fa-instagram"></i> Instagram</h5></a
           >
@@ -40,7 +53,7 @@
           <a href="https://facebook.com/profile.php?id=100010394822710" class="text-decoration-none text-black"
             ><h5><i class="fa-brands fa-twitter"></i> Twitter</h5></a
           >
-        </div>
+        </div> -->
       </div>
     </div>
     <script src="index.js"></script>
